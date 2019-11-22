@@ -8,33 +8,40 @@ header{
 
 
 }
-form #control{
-	width: 100%;
-	height: 100px;
-	align-items: center;
-	display:inline;
-	background-color: red;
+#result{
 
-
-}button{
 	position:relative;
-	left:200px;
+	left: 20%;
+	top :40px;
+
+}
+
+
+button{
+	position:relative;
+	left:40%;
+	top :20px;
+	width:100px;
+	height: 40px;
+
 	
 }
 label{
 	position:relative;
-	left:30%;
+	left:38%;
 	font-size: 50px;
 }
 input[type=text] {
   background-color: lightblue;
-  color: white;
-  width: 50%;
+  color: black;
+  width: 55%;
    height: 50px;
   border: 2px solid ;
   border-radius: 4px;
   position:relative;
-  left:200px
+  left:22%;
+  font-size: 40px;
+  top:10px;
 }
 
 
@@ -44,12 +51,14 @@ table#tb {
   
 }
 table#tb tr:nth-child(even) {
+	text-align: center;
   background-color: #eee;
 }
 table#tb tr:nth-child(odd) {
   background-color: #fff;
+  text-align: center;
 }
 table#tb th {
-  color: white;
+  color: black;
   background-color: #73D6EF;
 }

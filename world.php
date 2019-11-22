@@ -61,7 +61,7 @@ $results = $stmt->fetchAll(PDO::FETCH_ASSOC);
 
 <table id="tb">
  <tr>
-	<th>name</th>
+	<th>Name</th>
 	<th>Continent</th>
 	<th>Independence Year</th>
 	<th>Head of State </th>

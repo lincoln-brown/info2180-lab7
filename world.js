@@ -35,7 +35,7 @@ $.ajax({type:"GET", url:"world.php",data:$("#control").serialize()+"&context=cit
 
 }
 
-	alert("loaded ");
+	//alert("loaded ");
 
 
 
